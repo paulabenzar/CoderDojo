@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SSO Consumer Management</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/sso.js"></script>
+    <style>
+        #errorMessage {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+</br></br>
+
+</br></br>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <form>
+            <div class="center">
+                <button type="button" class="btn btn-info" onclick="getRequest()">Get Request</button>
+                <button type="button" class="btn btn-info" onclick="postRequest()">Post Request</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            <p id="errorMessage"/>
+            <p id="response"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

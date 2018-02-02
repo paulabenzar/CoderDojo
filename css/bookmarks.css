@@ -1,0 +1,29 @@
+.log-out {
+    float: right;
+}
+
+.nav-item {
+    float: left;
+    clear: left;
+}
+
+body {
+    padding: 40px;
+}
+
+.content {
+    width: 1000px;
+    margin: auto;
+}
+
+.login-body {
+    width: 400px;
+    height: 300px;
+    margin: 20px auto auto;
+    text-align: center;
+}
+
+.login-body form {
+    margin-top: 100px;
+}
+
